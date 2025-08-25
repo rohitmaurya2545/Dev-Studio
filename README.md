@@ -25,6 +25,23 @@ Built with **Next.js 15, Convex, Clerk, and TypeScript**.
 ## 🛠️ Setup
 
 ### 1. Clone the repo
-```bash
 git clone https://github.com/rohitmaurya2545/Dev-Studio.git
 cd Dev-Studio
+
+### 2.Install dependencies
+npm install
+
+### 3. Configure environment variables
+* Create a .env.local file in the root directory and add:</br>
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=</br>
+CLERK_SECRET_KEY=</br>
+CONVEX_DEPLOYMENT=</br>
+NEXT_PUBLIC_CONVEX_URL=</br></br>
+* Add these in your Convex Dashboard:</br>
+CLERK_WEBHOOK_SECRET=</br>
+LEMON_SQUEEZY_WEBHOOK_SECRET=</br>
+### 4. Run the app
+npm run dev
+
+
+
